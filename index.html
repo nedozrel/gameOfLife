@@ -1,0 +1,34 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Game of life</title>
+</head>
+<body>
+    <div class="main-container">
+        <div class="top-container">
+            <div class="left-container">
+                <input class="size-setting" type="range" min="1" max="10" step="1" value="5">
+            </div>
+            <div class="right-container">
+                <canvas id="canvas" width="500" height="500"></canvas>
+            </div>
+        </div>
+        <div class="bottom-container">
+            <div class="button-container">
+                <button class="fill-random">Random filling</button>
+            </div>
+            <div class="button-container">
+                <button class="start-life">Start life</button>
+            </div>
+            <div class="checkbox-container">
+                <input class="eraser-mode" type="checkbox">
+                <label>Eraser</label>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

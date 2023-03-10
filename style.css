@@ -1,0 +1,56 @@
+html, body {
+    padding: 0 0;
+    margin: 0 0;
+}
+
+.main-container {
+    margin: 50px auto;
+    vertical-align: center;
+}
+
+#canvas {
+    width: 500px;
+    height: 500px;
+    border: 1px solid black;
+}
+
+button {
+    vertical-align: bottom;
+    width: 100px;
+    height: 50px;
+}
+
+.size-setting {
+    -webkit-appearance: slider-vertical;
+    width: 20px;
+    height: 500px;
+}
+
+.left-container {
+    float: left;
+}
+
+.right-container {
+    float: right;
+}
+
+.eraser-mode {
+    float: right;
+}
+
+.button-container, .checkbox-container {
+    display: inline-block;
+    position: relative;
+    margin: 0 auto;
+}
+
+.top-container {
+    height: 502px;
+}
+
+.bottom-container {
+    position: relative;
+    text-align: center;
+    height: 50px;
+    margin-top: 10px;
+}
